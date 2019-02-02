@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mountain kingdom</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -15,13 +16,26 @@
   <div class="cnt">
       <nav class="nav flex">
         <ul class="menu flex">
-          <li class="menu-item flex"><a href="#">ABOUT</a></li>
-          <li class="menu-item flex"><a href="#">OFFER</a></li>
+          <li class="menu-item menu-item-link flex"><a href="#">ABOUT</a></li>
+          <li class="menu-item menu-item-link flex"><a href="#">OFFER</a></li>
           <li class="menu-item img-logo"></li>
-          <li class="menu-item flex"><a href="#">GALLERY</a></li>
-          <li class="menu-item flex"><a href="#">CONTACT</a></li>
+          <li class="menu-item menu-item-link flex"><a href="#">GALLERY</a></li>
+          <li class="menu-item menu-item-link flex"><a href="#">CONTACT</a></li>
         </ul>
       </nav>
+      <nav class="nav flex rwd">
+          <ul class="menu flex rwd-menu">
+            <li class="menu-item menu-item-link flex rwd-link"><a href="#">ABOUT</a></li>
+            <li class="menu-item menu-item-link flex rwd-link"><a href="#">OFFER</a></li>
+            <li class="menu-item menu-item-link flex rwd-link"><a href="#">GALLERY</a></li>
+            <li class="menu-item menu-item-link flex rwd-link"><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      <div class="hamburger-btn">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
       <section class="content flex">
         <div class="text-logo">
           

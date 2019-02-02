@@ -1,13 +1,20 @@
 $(document).ready(function() {
-  const enter_btn = $(".enter");
-  const overlay = $(".overlay");
+
   let loged_in = false;
 
 // DOM EVENTS
 
-  enter_btn.click(function(){
-    overlay.removeClass("hiden");
-    overlay.addClass("show");
+  $(".enter").click(function(){
+    $(".overlay").removeClass("hiden");
+    $(".overlay").addClass("show");
+  });
+
+  $(".hamburger-btn").click(function(){
+    $(".line:nth-child(1)").toggleClass("line-click1");
+    $(".line:nth-child(2)").toggleClass("line-click2");
+    $(".line:nth-child(3)").toggleClass("line-click3");
+    $(".hamburger-btn").toggleClass("rotate");
+    $(".rwd-link").fadeToggle(300);
   });
 
 // API FUNCTIONALITY

@@ -1,0 +1,221 @@
+/* Smartphones */
+@media only screen and (max-width : 480px) { 
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .menu-item-link {
+    display: none;
+  }
+
+  .rwd {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    height: 100px;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+  }
+
+  .rwd-menu {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .rwd-link {
+    display: none;
+    justify-content: flex-start;
+    background-color: rgba(180, 180, 180, 0.9);
+  }
+
+  .rwd-link a {
+    display: block;
+    padding: 25px;
+  }
+
+  .rwd-link:nth-child(2){
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+    border-top: solid 1px  rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .rwd-link:nth-child(3){
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-item {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .text-logo {
+    width: 80%;
+    height: 80px;
+  }
+
+  .btn {
+    width: 50%;
+    height: 50px;
+    font-size: 0.7em;
+  }
+
+  .footer-text {
+    width: 33%;
+    height: 10px;
+    font-size: 0.3em;
+  }
+
+  .pop-up {
+    width: 80%;
+    height: 60vh;
+  }
+
+  .pop-up-header {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 640px) {
+  .menu {
+    width: 100%
+  }
+
+  .menu-item {
+    font-size: 0.7em;
+  }
+
+  .text-logo {
+    width: 60%;
+    height: 80px;
+  }
+
+  .btn {
+    width: 40%;
+    height: 50px;
+    font-size: 0.7em;
+  }
+
+  .footer-text {
+    width: 33%;
+    height: 10px;
+    font-size: 0.4em;
+  }
+
+  .pop-up {
+    width: 50%;
+  }
+
+  .pop-up-header {
+    font-size: 0.65em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
+
+/* Tablets, iPads etc. */
+@media only screen and (min-width : 641px) and (max-width : 1024px) {
+  .menu {
+    width: 70%
+  }
+
+  .text-logo {
+    width: 50%;
+    height: 80px;
+  }
+
+  .btn {
+    width: 25%;
+    height: 50px;
+    font-size: 0.7em;
+  }
+
+  .footer-text {
+    width: 30%;
+    height: 10px;
+    font-size: 0.5em;
+  }
+
+  .pop-up {
+    width: 35%;
+  }
+
+  .pop-up-header {
+    font-size: 0.75em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
+
+/* Small screens horizontal */
+@media only screen and (max-height : 500px) { 
+  .menu {
+    width: 100%
+  }
+
+  .menu-item {
+    font-size: 0.7em;
+    width: 30%;
+  }
+
+  .text-logo {
+    width: 80%;
+    height: 80px;
+    margin-top: 0px;
+  }
+
+  .btn {
+    width: 40%;
+    height: 60px;
+    font-size: 0.7em;
+    margin: 20px 0;
+  }
+
+  .footer-text {
+    width: 33%;
+    height: 10px;
+    font-size: 0.4em;
+  }
+
+  .pop-up {
+    width: 50%;
+    height: 80vh;
+  }
+
+  .pop-up-header {
+    font-size: 0.65em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+} 
