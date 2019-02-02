@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mountain kingdom</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="cnt">
+      <nav class="nav flex">
+        <ul class="menu flex">
+          <li class="menu-item flex"><a href="#">ABOUT</a></li>
+          <li class="menu-item flex"><a href="#">OFFER</a></li>
+          <li class="menu-item img-logo"></li>
+          <li class="menu-item flex"><a href="#">GALLERY</a></li>
+          <li class="menu-item flex"><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <section class="content flex">
+        <div class="text-logo">
+          
+        </div>
+        <button class="btn enter">
+          enter the gates
+        </button>
+        <div class="overlay flex hiden">
+          <div class="pop-up flex">
+            <h2 class="pop-up-header">Are you a Mountain Knight?</h2>
+            <form id="login_form" action="index.html" method="POST" class="pop-up-form flex">
+              <input class="input login" type="email" placeholder="Email" name="login" required>
+              <input class="input password" type="password" placeholder="Password" name="password" required>
+              <button type="submit" class="btn submit">log in</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer flex">
+        <div class="footer-text text-left flex">&copy; 2019 mountine kingdom</div>
+        <a href="#" class="footer-text text-center flex">Cookies | Privacy</a>
+        <div class="footer-text text-right flex"><p>Designed by <span><a href="#">Wizard of Oz</a></span></p></div>
+      </footer>
+  </div>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
