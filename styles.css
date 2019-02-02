@@ -202,3 +202,104 @@ a {
   color: #fff;
   font-weight: 600;
 }
+
+/* MEDIA QUERY */
+
+/* Smartphones */
+@media only screen and (max-width : 480px) { 
+
+}
+
+@media only screen and (min-width : 481px) and (max-width : 640px) {
+  .menu {
+    width: 100%
+  }
+
+  .menu-item {
+    font-size: 0.7em;
+  }
+
+  .text-logo {
+    width: 60%;
+    height: 80px;
+  }
+
+  .btn {
+    width: 40%;
+    height: 50px;
+    font-size: 0.7em;
+  }
+
+  .footer-text {
+    width: 33%;
+    height: 10px;
+    font-size: 0.4em;
+  }
+
+  .pop-up {
+    width: 50%;
+  }
+
+  .pop-up-header {
+    font-size: 0.65em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
+
+/* Tablets, iPads etc. */
+@media only screen and (min-width : 641px) and (max-width : 1024px) {
+  .menu {
+    width: 70%
+  }
+
+  .text-logo {
+    width: 50%;
+    height: 80px;
+  }
+
+  .btn {
+    width: 25%;
+    height: 50px;
+    font-size: 0.7em;
+  }
+
+  .footer-text {
+    width: 30%;
+    height: 10px;
+    font-size: 0.5em;
+  }
+
+  .pop-up {
+    width: 35%;
+  }
+
+  .pop-up-header {
+    font-size: 0.75em;
+  }
+
+  .input {
+    width: 80%
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen  and (min-width : 1224px) {
+  
+}
+
+/* Large screens */
+@media only screen  and (min-width : 1824px) {
+  
+}
+    
