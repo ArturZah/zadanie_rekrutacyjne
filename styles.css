@@ -57,6 +57,7 @@ a {
   background-image: url("img/footer-bg.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .rwd {
